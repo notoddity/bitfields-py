@@ -1,4 +1,4 @@
-from typing import Callable
+from typing import Callable, Optional
 
 def _getter(n: int) -> Callable:
     def wrapper(self):
@@ -23,13 +23,17 @@ def flag(n: int) -> property:
     return property(_getter(n), _setter(n))
 
 class Flags(object):
-    """
-    Flags parent class
-    """
+    """Flags parent class"""
     __slots__ = ("flags")
 
-    def __init__(self) -> None:
-        self.flags = 0
+    def __init__(self, flags: Optional[int] = 0) -> None:
+        """
+        __init__ Flags class initialization method
+
+        Args:
+            flags (Optional[int], optional): Parse passed flags into current model. Defaults to 0.
+        """
+        self.flags = flags
 
     def __eq__(self, o: object) -> bool:
         if "flags" in o.__slots__ and o.flags == self.flags:
