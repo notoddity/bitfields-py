@@ -7,7 +7,7 @@ with open("README.md") as f:
 setup(
     name="altflags",
     author="Oddity",
-    version="0.0.2",
+    version="0.0.3",
     license="MIT",
     description="Python alternative (binary) flags",
     python_requires=">=3.8.0",

@@ -7,7 +7,7 @@
         <img src="https://img.shields.io/github/downloads/notoddity/altflags/total" /></a>
 </p>
 
-# alt-flags
+# altflags
 `altflags` allows you to easily map, parse and manipulate binary flags
 
 ## Why?
