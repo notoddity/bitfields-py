@@ -1,6 +1,10 @@
 # altflags
 `altflags` allows you to easily map, parse and manipulate binary flags
 
+[![LICENSE](https://github.com/NotOddity/altflags/blob/master/LICENSE)](https://img.shields.io/github/license/notoddity/altflags)
+[![PYVERSION](https://pypi.org/project/altflags/)](https://img.shields.io/pypi/pyversions/altflags)
+[![DOWNLOADS](https://github.com/NotOddity/altflags)](https://img.shields.io/github/downloads/notoddity/altflags/total)
+
 ## Why?
 1. The built in Python Flags and IntFlags didn't fit my needs
 1. Simple usage to handle binary flag mapping, parsing and manipulation
