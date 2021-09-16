@@ -1,4 +1,9 @@
-## Python alternative flags
+# Python alternative flags
+
+## Why?
+1. The built in Python Flags and IntFlags didn't fit my needs
+2. I wanted a super efficient and simple package to handle binary flag parsing
+3. This is my first public package, it's small and easy to maintain
 
 ## Quick Start
 ### 1. Install with pip from PyPi
@@ -68,45 +73,4 @@ print({:0n}.format(user_permissions))
 ```
 
 ### Notes
-+ `flags(n: int)` n argument specifies the bit position of your flag (Warning: These can be overwritten)
-
-### How to use
-```
-from altflags import Flags, flag
-
-class Permissions(Flags)
-    view_page = flag(0)
-    add_message = flag(1)
-
-user = Permission()
-
-user.view_page = True
-
-print(user.view_page)
-# 
-
-print(user.flags)
-# >>> 1
-
-user.add_message = True
-
-print(user.add_message)
-# >>> True
-
-print(user.flags)
-# >>> 3
-
-user.view_page = False
-
-print(user.view_page)
-# >>> False
-
-print(user.flags)
-# >>> 2
-
-print("{:0b}".format(user.flags))
-# >>> 10
-```
-
-### Flag method arguments
-The `n` argument in `altflags.flag(n)` is the bit position of the flag
++ `flags(n: int)` n argument specifies the bit position of your flag (Warning: These can be overwritten).
