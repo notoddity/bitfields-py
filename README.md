@@ -1,7 +1,22 @@
 ## Python alternative flags
 
-### How to install
-`pip install altflags`
+### Quick Start
+---
+1. Install with pip from PyPi
+    + `python -m pip install altflags`
+1. Create your `myapplication.py` file
+1. Import `Flags` and `flag` from altflags
+    + `from altflags import Flags, flag`
+1. Create a new Flags class (i.e. `Permissions`)
+    + ``` class Permissions(Flags):
+create_message = flag(0)
+delete_message = flag(1)
+edit_message = flag(2)
+```
+1. Update your flags
+
+### Notes
++ `flags(n: int)` n argument specifies the bit position of your flag (Warning: These can be overwritten)
 
 ### How to use
 ```
