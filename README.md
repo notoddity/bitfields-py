@@ -1,14 +1,13 @@
 ## Python alternative flags
 
 ### Quick Start
----
 1. Install with pip from PyPi
     + `python -m pip install altflags`
 1. Create your `myapplication.py` file
 1. Import `Flags` and `flag` from altflags
     + `from altflags import Flags, flag`
 1. Create a new Flags class (i.e. `Permissions`)
-    + ``` class Permissions(Flags):
+``` class Permissions(Flags):
 create_message = flag(0)
 delete_message = flag(1)
 edit_message = flag(2)
