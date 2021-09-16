@@ -1,8 +1,9 @@
-# Python alternative flags
+# altflags
+`altflags` allows you to easily map, parse and manipulate binary flags
 
 ## Why?
 1. The built in Python Flags and IntFlags didn't fit my needs
-1. Simple usage to handle binary flag mapping, editing and parsing
+1. Simple usage to handle binary flag mapping, parsing and manipulation
 1. Needs to run super efficiently and quick (same thing?)
 1. This is my first public package, it's small and easy to maintain
 
