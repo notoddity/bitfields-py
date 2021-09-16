@@ -2,8 +2,9 @@
 
 ## Why?
 1. The built in Python Flags and IntFlags didn't fit my needs
-2. I wanted a super efficient and simple package to handle binary flag parsing
-3. This is my first public package, it's small and easy to maintain
+1. Simple usage to handle binary flag mapping, editing and parsing
+1. Needs to run super efficiently and quick (same thing?)
+1. This is my first public package, it's small and easy to maintain
 
 ## Quick Start
 ### 1. Install with pip from PyPi
