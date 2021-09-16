@@ -1,6 +1,3 @@
-# altflags
-`altflags` allows you to easily map, parse and manipulate binary flags
-
 <p align="center">
     <a href="https://github.com/NotOddity/altflags/blob/master/LICENSE" alt="License">
         <img src="https://img.shields.io/github/license/notoddity/altflags" /></a>
@@ -9,6 +6,9 @@
     <a href="https://github.com/NotOddity/altflags" alt="Downloads">
         <img src="https://img.shields.io/github/downloads/notoddity/altflags/total" /></a>
 </p>
+
+# altflags
+`altflags` allows you to easily map, parse and manipulate binary flags
 
 ## Why?
 1. The built in Python Flags and IntFlags didn't fit my needs
