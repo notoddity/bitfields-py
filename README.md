@@ -1,9 +1,14 @@
 # altflags
 `altflags` allows you to easily map, parse and manipulate binary flags
 
-[![LICENSE](https://github.com/NotOddity/altflags/blob/master/LICENSE)](https://img.shields.io/github/license/notoddity/altflags)
-[![PYVERSION](https://pypi.org/project/altflags/)](https://img.shields.io/pypi/pyversions/altflags)
-[![DOWNLOADS](https://github.com/NotOddity/altflags)](https://img.shields.io/github/downloads/notoddity/altflags/total)
+<p align="center">
+    <a href="https://github.com/NotOddity/altflags/blob/master/LICENSE" alt="License">
+        <img src="https://img.shields.io/github/license/notoddity/altflags" /></a>
+    <a href="https://pypi.org/project/altflags/" alt="PYVersion">
+        <img src="https://img.shields.io/pypi/pyversions/altflags"/></a>
+    <a href="https://github.com/NotOddity/altflags" alt="Downloads">
+        <img src="https://img.shields.io/github/downloads/notoddity/altflags/total" /></a>
+</p>
 
 ## Why?
 1. The built in Python Flags and IntFlags didn't fit my needs
