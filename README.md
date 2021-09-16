@@ -1,9 +1,9 @@
-# Python alternative (binary) flags
+## Python alternative flags
 
-## How to install altflags
+### How to install altflags
 `pip install altflags`
 
-## How to use altflags
+### How to use altflags
 ```
 from altflags import Flags, flag
 
@@ -36,7 +36,10 @@ print(user.view_page)
 
 print(user.flags)
 # >>> 2
+
+print("{:0b}".format(user.flags))
+# >>> 10
 ```
 
-## flag method
+### Flag method arguments
 The n argument should me to bit position of the flag you are setting
