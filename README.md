@@ -27,7 +27,7 @@ print("{:0b}".format(user_permissions.flags))
 
 # print flags as integer
 print({:0n}.format(user_permissions.flags))
-# >>> 
+# >>> 5
 ```
 ### 4. Compare flags
 ```
