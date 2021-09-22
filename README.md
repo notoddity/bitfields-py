@@ -8,7 +8,7 @@
 </p>
 
 # altflags
-`altflags` allows you to easily map, parse and manipulate binary flags
+`altflags` a simple and easy way to map, parse and manage bit masks.
 
 ## Why?
 1. The built in Python Flags and IntFlags didn't fit my needs
