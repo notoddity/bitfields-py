@@ -1,11 +1,8 @@
 # bitfields-py
-`bitfields-py` is a simple way to abstract away bitmasking bitfields used for things like permissions, flags, etc.
-
-## Why?
-1. I don't want to have to manually bitmask a interger in code so abstract that away
-2. I wanted to sort these "fields" as properties under a python class so they could be easily callable like `my_obj.my_field = True/False`
-1. Easily parse bitfields passed to me over json with marshmallow
-2. Easily create and parse bitfields to and from integers without writing any bit-masking in any situation
+`bitfields-py` is a simple way to abstract away bitmasking bitfields used for things like permissions, flags, etc. I didn't want
+to have to write another `1 >> n` or `1 << n` in my code ever again. I wanted to easily define a subclass and assign some properties
+at certain bit locations to some name and have those be easily readable, editable and serializable. I finally wanted to build this
+into marshmallow to help automatically parse bitfields over json passed by api's.
 
 ## Quick Start
 ### 1. Install with pip from PyPi
