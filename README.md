@@ -4,6 +4,8 @@ to have to write another `1 >> n` or `1 << n` in my code ever again. I wanted to
 at certain bit locations to some name and have those be easily readable, editable and serializable. I finally wanted to build this
 into marshmallow to help automatically parse bitfields over json passed by api's.
 
+Automatically serialize and de-sserialize bitfields via marshmallow
+
 ## Quick Start
 ### 1. Install with pip from PyPi
 `python -m pip install altflags`
