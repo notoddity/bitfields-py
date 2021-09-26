@@ -9,5 +9,4 @@ An alternative to the python built in IntFlag / Flag object.
 
 """
 
-from .bitfield import *
-from .field import *
+from .main import *
