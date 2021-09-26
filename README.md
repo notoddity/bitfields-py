@@ -2,10 +2,10 @@
 `bitfields-py` is a simple way to abstract away bitmasking bitfields used for things like permissions, flags, etc.
 
 ## Why?
-1. The built in Python Flags and IntFlags didn't fit my needs
-1. Simple usage to handle binary flag mapping, parsing and manipulation
-1. Needs to run super efficiently and quick (same thing?)
-1. This is my first public package, it's small and easy to maintain
+1. I don't want to have to manually bitmask a interger in code so abstract that away
+2. I wanted to sort these "fields" as properties under a python class so they could be easily callable like `my_obj.my_field = True/False`
+1. Easily parse bitfields passed to me over json with marshmallow
+2. Easily create and parse bitfields to and from integers without writing any bit-masking in any situation
 
 ## Quick Start
 ### 1. Install with pip from PyPi
