@@ -1,14 +1,5 @@
-<p align="center">
-    <a href="https://github.com/NotOddity/altflags/blob/master/LICENSE" alt="License">
-        <img src="https://img.shields.io/github/license/notoddity/altflags" /></a>
-    <a href="https://pypi.org/project/altflags/" alt="PYVersion">
-        <img src="https://img.shields.io/pypi/pyversions/altflags"/></a>
-    <a href="https://github.com/NotOddity/altflags" alt="Downloads">
-        <img src="https://img.shields.io/github/downloads/notoddity/altflags/total" /></a>
-</p>
-
-# altflags
-`altflags` a simple and easy way to map, parse and manage bit masks.
+# bitfields-py
+`bitfields-py` is a simple way to abstract away bitmasking bitfields used for things like permissions, flags, etc.
 
 ## Why?
 1. The built in Python Flags and IntFlags didn't fit my needs
