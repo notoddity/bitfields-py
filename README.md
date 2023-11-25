@@ -1,8 +1,5 @@
 # bitfields-py
-`bitfields-py` is a simple way to abstract away bitmasking bitfields used for things like permissions, flags, etc. I didn't want
-to have to write another `1 >> n` or `1 << n` in my code ever again. I wanted to easily define a subclass and assign some properties
-at certain bit locations to some name and have those be easily readable, editable and serializable. I finally wanted to build this
-into marshmallow to help automatically parse bitfields over json passed by api's.
+`bitfields-py` is a simple way to abstract away bitmasking bitfields used for things like permissions, flags, etc.
 
 Automatically serialize and de-sserialize bitfields via marshmallow
 
